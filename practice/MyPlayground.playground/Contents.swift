@@ -1,22 +1,33 @@
 import UIKit
 
+//greeting.count => 글자의 갯수 length
 var greeting = "Hello, playground"
-print("hello World", greeting)
+print(greeting)
 
 
-print("= Int32 =  \(Int32.min), Int 32 Max =>\(Int32.max)")
-print("= Int32=  \(Int64.min), Int 32 Max =>\(Int64.max)")
-print("= Int=  \(Int.min), Int Max =>\(Int.max)")
-
-//  부동소수점 타입
-let float = 1.1
-print("= float =>\(float)")
-print("= float =>\(float - 0.1)")
-
-//크냐 작냐 등의 조건식을, 비교해서 씀
-let bool = false
-print("= Bool => \(bool)")
 
 
-let char = "\u{0060}"
-print("= ? =? \(char)")
+//연산예제 1
+
+let num1 = 7
+let num2 = 3
+let numDouble1 = Double(num1)
+let numDouble2 = Double(num2)
+
+print(num1 + num2)
+
+
+print(num1 - num2)
+
+
+print(num1 * num2)
+
+
+print(numDouble1 / numDouble2)
+
+
+let num3 = 456
+
+print("결과확인: \(num3 / 100 * 100)")
+
+print("결과확인:",num3 / 100 * 100)
