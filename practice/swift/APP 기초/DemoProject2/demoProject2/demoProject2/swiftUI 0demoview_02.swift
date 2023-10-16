@@ -32,7 +32,7 @@ struct example06_01: View {
                 .font(.system(size: 65, weight: .bold))
                 .fontWeight(.heavy)
                 .rotationEffect(.degrees(rotation))
-                .animation(.easeInOut(duration: 5), value: rotation)
+                .animation(.easeInOut(duration: 2), value: rotation)
                 .foregroundColor(colors[colorIndex])
             
             Spacer()
@@ -45,15 +45,21 @@ struct example06_01: View {
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding()
             
+            //picker
             Picker(selection: $colorIndex , label: Text("Picker")) {
+                
+                //ForEch
                 ForEach (0..<colornames.count, id: \.self) {
                     Text(colornames[$0])
                         .foregroundColor(colors[$0])
                 }
             }
             .pickerStyle(.wheel)
-            .padding()
+            
         }
+        .padding()
+//        .background(Color.indigo)
+        
     }
 }
 

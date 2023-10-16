@@ -16,8 +16,8 @@
 		202F11952AD67851001E1BCC /* example02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F11942AD67851001E1BCC /* example02.swift */; };
 		202FC5E72AD9153900DF6152 /* example05.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202FC5E62AD9153900DF6152 /* example05.swift */; };
 		202FC5E92AD918B100DF6152 /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202FC5E82AD918B100DF6152 /* StateView.swift */; };
-		202FC5EB2AD92B1600DF6152 /* example06.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202FC5EA2AD92B1600DF6152 /* example06.swift */; };
-		202FC5ED2AD9377000DF6152 /* example06-01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202FC5EC2AD9377000DF6152 /* example06-01.swift */; };
+		202FC5EB2AD92B1600DF6152 /* swiftUI -demoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202FC5EA2AD92B1600DF6152 /* swiftUI -demoView.swift */; };
+		202FC5ED2AD9377000DF6152 /* swiftUI 0demoview_02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202FC5EC2AD9377000DF6152 /* swiftUI 0demoview_02.swift */; };
 		20B536E62AD7BCB40074F0C0 /* StackFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B536E52AD7BCB40074F0C0 /* StackFrameView.swift */; };
 		20B536E82AD7CD280074F0C0 /* example03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B536E72AD7CD280074F0C0 /* example03.swift */; };
 		20B536EA2AD7E2290074F0C0 /* example04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B536E92AD7E2290074F0C0 /* example04.swift */; };
@@ -34,8 +34,8 @@
 		202F11942AD67851001E1BCC /* example02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example02.swift; sourceTree = "<group>"; };
 		202FC5E62AD9153900DF6152 /* example05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example05.swift; sourceTree = "<group>"; };
 		202FC5E82AD918B100DF6152 /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
-		202FC5EA2AD92B1600DF6152 /* example06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example06.swift; sourceTree = "<group>"; };
-		202FC5EC2AD9377000DF6152 /* example06-01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "example06-01.swift"; sourceTree = "<group>"; };
+		202FC5EA2AD92B1600DF6152 /* swiftUI -demoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "swiftUI -demoView.swift"; sourceTree = "<group>"; };
+		202FC5EC2AD9377000DF6152 /* swiftUI 0demoview_02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "swiftUI 0demoview_02.swift"; sourceTree = "<group>"; };
 		20B536E52AD7BCB40074F0C0 /* StackFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackFrameView.swift; sourceTree = "<group>"; };
 		20B536E72AD7CD280074F0C0 /* example03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example03.swift; sourceTree = "<group>"; };
 		20B536E92AD7E2290074F0C0 /* example04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example04.swift; sourceTree = "<group>"; };
@@ -78,13 +78,13 @@
 				20B536E72AD7CD280074F0C0 /* example03.swift */,
 				20B536E92AD7E2290074F0C0 /* example04.swift */,
 				202FC5E62AD9153900DF6152 /* example05.swift */,
-				202FC5EA2AD92B1600DF6152 /* example06.swift */,
-				202FC5EC2AD9377000DF6152 /* example06-01.swift */,
 				202F117E2AD6246E001E1BCC /* Assets.xcassets */,
 				202F11802AD6246E001E1BCC /* Preview Content */,
 				202F11882AD6413E001E1BCC /* BasicView.swift */,
 				20B536E52AD7BCB40074F0C0 /* StackFrameView.swift */,
 				202FC5E82AD918B100DF6152 /* StateView.swift */,
+				202FC5EA2AD92B1600DF6152 /* swiftUI -demoView.swift */,
+				202FC5EC2AD9377000DF6152 /* swiftUI 0demoview_02.swift */,
 			);
 			path = demoProject2;
 			sourceTree = "<group>";
@@ -169,10 +169,10 @@
 			files = (
 				202F11892AD6413E001E1BCC /* BasicView.swift in Sources */,
 				20B536E62AD7BCB40074F0C0 /* StackFrameView.swift in Sources */,
-				202FC5EB2AD92B1600DF6152 /* example06.swift in Sources */,
+				202FC5EB2AD92B1600DF6152 /* swiftUI -demoView.swift in Sources */,
 				202FC5E92AD918B100DF6152 /* StateView.swift in Sources */,
 				202FC5E72AD9153900DF6152 /* example05.swift in Sources */,
-				202FC5ED2AD9377000DF6152 /* example06-01.swift in Sources */,
+				202FC5ED2AD9377000DF6152 /* swiftUI 0demoview_02.swift in Sources */,
 				20B536EA2AD7E2290074F0C0 /* example04.swift in Sources */,
 				202F11952AD67851001E1BCC /* example02.swift in Sources */,
 				202F117D2AD6246C001E1BCC /* ContentView.swift in Sources */,

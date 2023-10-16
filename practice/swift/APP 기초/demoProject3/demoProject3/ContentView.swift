@@ -7,12 +7,24 @@
 
 import SwiftUI
 
+import SwiftUI
+
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Hello, world!")
+        NavigationView {
+            List {
+                NavigationLink(destination: Calling_To_Lion()) {
+                    Text("Calling To Lion")
+                }
+                NavigationLink(destination: HowManyCount()) {
+                    Text("How Many Count")
+                }
+                NavigationLink(destination: ButtonLayout()) {
+                    Text("Button Layout")
+                }
+            }
+            .navigationBarTitle("연습문제")
         }
-        .padding()
     }
 }
 
