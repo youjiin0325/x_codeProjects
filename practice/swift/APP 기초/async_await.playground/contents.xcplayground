@@ -4,5 +4,7 @@
         <page name='Untitled Page 2'/>
         <page name='Actor '/>
         <page name='동시성예제'/>
+        <page name='Dictionary'/>
+        <page name='Set'/>
     </pages>
 </playground>

@@ -98,13 +98,13 @@ actor StringEx {
     }
 
     func capitalize() -> String {
-        return str.uppercased()
+         str.uppercased()
     }
     func lowercase() -> String {
-        return str.lowercased()
+         str.lowercased()
     }
     func reverse() -> String {
-           return String(str.reversed())
+         String(str.reversed())
        }
 
 }
@@ -135,12 +135,20 @@ actor BankAccount {
 
     // TODO: 입금 기능을 구현
     func depositMoney(_ m: Int) -> Int {
-        balance += m
-        return balance
+        if m > 0 {
+            balance += m
+            return balance
+        }else {
+            return balance
+        }
+      
     }
 
     // TODO: 출금 기능을 구현
-    func withdrawMoney(_ m: Int) -> Int {
+    func withdrawMoney(_ m: Int)throws -> Int {
+        if m > balance {
+          throw  BankError.notEnoughInputMoney
+        }
         balance -= m
         return balance
     }
@@ -151,19 +159,24 @@ let account = BankAccount()
 Task {
   // TODO: account 에 1000원을 입금
     print(await account.depositMoney(1000))
-
-  // TODO: account 에서 500원을 출금
-    print(await account.withdrawMoney(500))
-  // TODO: account 의 잔액을 출력
-    print(await account.balance)
+    do {
+          // TODO: account 에서 500원을 출금
+        try print(await account.withdrawMoney(5000))
+        print("현재 잔액 \(await account.balance) 입니다")
+    }catch {
+        BankError.notEnoughInputMoney
+        print("잔액이 부족합니다")
+        print("현재 잔액 \(await account.balance) 입니다")
+        
+    }
 }
 
 
-Task {
-  // TODO: account 에 3000원을 입금
-    print(await account.despositMoney(3000))
-  // TODO: account 에서 6000원을 출금
-    print(await account.withdrawMoney(6000))
-  // TODO: account 의 잔액을 출력
-    print(await account.balance)
-}
+//Task {
+//  // TODO: account 에 3000원을 입금
+//    print(await account.despositMoney(3000))
+//  // TODO: account 에서 6000원을 출금
+//   try? print(await account.withdrawMoney(6000))
+//  // TODO: account 의 잔액을 출력
+//    print(await account.balance)
+//}
