@@ -1,4 +1,4 @@
-//: [Previous](@previous)
+
 
 import Foundation
 
@@ -55,12 +55,7 @@ print(difference) // [1.0, 3.0, 5.0]
 //(서로소는 공통된 원소가 없는 것을 의미한다.)
 // 예시코드:
 func disjoint (_ n1:Set<Character>,_ n2:Set<Character>) -> Bool {
-    let result = Array(n1.symmetricDifference(n2))
-    if result.isEmpty {
-        return true
-    }else {
-        return false
-    }
+    return n1.isDisjoint(with: n2)
 }
 
 
@@ -71,21 +66,23 @@ print(isDisjoint) // true
 
 
 
-func disjoint(_ set1: Set<Character>, _ set2: Set<Character>) -> Bool {
-    let result = Array(set1.symmetricDifference(set2))
-    return result.isEmpty
-}
-
-let setG: Set<Character> = ["a", "b", "c"]
-let setH: Set<Character> = ["d", "e", "f"]
-let isDisjoint = disjoint(setG, setH)
-print(isDisjoint)  // 출력 결과: true
-
 
 //집합 예제 05
 //
 //하나의 세트를 입력받아, 그 세트의 모든 부분집합을 배열로 반환하는 함수를 작성하세요.
 // 예시코드:
+func getSubsets(_ set : Set<Int>) -> [[Int]] {
+    var ans : [[Int]] = [[]]
+    for i in Array(set).sorted() {
+        ans.forEach { arr in
+            var a = arr
+            a.append(i)
+            ans.append(a)
+        }
+    }
+    return ans
+}
+
 let setI: Set<Int> = [1, 2, 3]
 let subsets = getSubsets(setI)
 print(subsets) // [[], [1], [2], [3], [1, 2], [1, 3], [2, 3], [1, 2, 3]]

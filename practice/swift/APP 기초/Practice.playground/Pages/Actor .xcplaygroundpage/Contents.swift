@@ -124,6 +124,10 @@ Task {
 //다음 코드는 actor 를 사용하여 은행 계좌의 입출금을 관리하는 예제이다.
 //코드를 완성하여 입출금 기능을 구현하고, 잔액을 출력하세요.
 
+enum BankError: Error {
+    case notEnoughInputMoney
+    case wrongAmountMoney
+}
 
 
 actor BankAccount {

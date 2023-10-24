@@ -6,5 +6,7 @@
         <page name='동시성예제'/>
         <page name='Dictionary'/>
         <page name='Set'/>
+        <page name='closure '/>
+        <page name='map,filter,reduce'/>
     </pages>
 </playground>

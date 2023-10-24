@@ -138,6 +138,8 @@ let person: [String: Any] = ["name": "Kim", "age": 25, "job": "programmer"]
 person["name"] ?? "Unknown"
 
 
+
+
 //딕셔너리 예제 07 (난이도 쉬움)
 //
 //다음과 같은 딕셔너리가 주어졌을 때, 모든 키와 값을 한 줄씩 출력하는 코드를 작성하세요.
@@ -148,3 +150,89 @@ let fruit = ["apple": 3, "banana": 5, "orange": 2]
 for (key, value) in fruit {
  print("\(key):\(value)")
 }
+
+
+
+
+
+//딕셔너리 예제 08
+//
+//다음과 같은 딕셔너리가 주어졌을 때, 값이 높은 점수 를 찾아서 출력하는 코드를 작성하세요.
+//값이 같은 키가 여러 개 있으면 아무거나 출력해도 됩니다.
+let scores = ["math": 90, "english": 85, "science": 95]
+
+//var hScore = scores.values.sorted()
+//print(hScore[2])
+var max = (key :"", value:0)
+for (key, value) in scores {
+    if value > max.value {
+     max = (key,value)
+    }
+}
+print(max.key)
+
+
+
+
+//딕셔너리 예제 09
+//
+//다음과 같은 딕셔너리가 주어졌을 때, 키와 값을 서로 바꾼 새로운 딕셔너리를 만드는 코드를 작성하세요.
+//(단, 기존의 딕셔너리는 변경하지 않는다.)
+let colors = ["red": "#FF0000", "green": "#00FF00", "blue": "#0000FF"]
+var newColorList : [String: String] = [:]
+for (k, v) in  colors { newColorList[v] = k }
+print(newColorList)
+
+
+
+
+//딕셔너리 예제 10
+//
+//다음과 같은 두 개의 딕셔너리가 주어졌을 때, 두 딕셔너리의 공통된 키의 키와 값을 출력하는 코드를 작성하세요.
+let dict1 = ["a": 1, "b": 2, "c": 3]
+let dict2 = ["b": 2, "c": 4, "d": 5]
+
+var newDict : [String : Int] = [:]
+
+for (key,value) in dict1 {
+    //키만 동일할 때
+    if let value2 =  dict2[key]  {
+        print("\(key):\(value)")
+        print("\(key):\(value2)")
+    }
+        
+}
+
+for (key,value) in dict1 {
+    //키와 값 모두 동일한 형태
+    if dict2[key] == value {
+        print("\(key):\(value)")
+    }
+        
+}
+
+
+
+
+//딕셔너리 예제 11
+//
+//다음과 같은 딕셔너리가 주어졌을 때, 값이 짝수인 키와 값을 삭제하는 코드를 작성하세요.
+var even = ["a": 2, "b": 3, "c": 4, "d": 5]
+
+for (key, value) in even {
+    if value % 2 == 0 {
+       even[key] = nil
+    }
+}
+print(even)
+
+
+
+
+//딕셔너리 예제 12
+//
+//다음과 같은 딕셔너리가 주어졌을 때, 키를 알파벳 순서로 정렬하여 출력하는 코드를 작성하세요.
+let countries = ["KR": "South Korea", "US": "United States", "JP": "Japan", "CN": "China"]
+
+var sortedKeys = countries.keys.sorted()
+print(sortedKeys)
