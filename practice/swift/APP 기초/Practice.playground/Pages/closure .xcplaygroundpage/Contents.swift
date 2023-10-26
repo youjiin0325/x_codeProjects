@@ -40,9 +40,7 @@ print(newOdd)
 //클로저 예제 04
 //
 //다음 코드에서 클로저를 사용하여 배열의 요소들의 합을 구해보세요
-let sumNubers = numbers.reduce(0) {
-    return $0 + $1
-}
+let sumNubers = numbers.reduce(0) {return $0 + $1}
 print(sumNubers)
 
 
