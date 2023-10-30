@@ -15,7 +15,7 @@ struct LifeCycleDemoViewApp: App {
         WindowGroup {
             ContentView()
         }
-//        .onChange(of: scenePhase, perform:  { phase in
+//        .onChange(of: scenePhase ) { phase in
 //            switch phase {
 //            case .active:
 //                print("Active")
@@ -26,6 +26,6 @@ struct LifeCycleDemoViewApp: App {
 //            default:
 //                print("Unknown")
 //            }
-//        })
+//        }
     }
 }

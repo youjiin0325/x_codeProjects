@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SceneStorageView: View {
     // @SceneStorage (키값) -> 앱을 쓰다가 잠시 나가도 유지되어있음
+    // SceneStorage 단위로만 값 공유
     @SceneStorage("mytext") private var editorText : String = ""
     
     var body: some View {

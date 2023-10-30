@@ -4,18 +4,22 @@
 import SwiftUI
 
 struct StorageDemoView: View {
+    
+    @AppStorage("SelectedTab") var selectedTab = 0
     var body: some View {
-        TabView{
+        TabView(selection: $selectedTab) {
             SceneStorageView()
                 .tabItem{
                     Image(systemName: "circle.fill")
                     Text(" SceneStorage")
                 }
+                .tag(0)
             AppStorageView()
                 .tabItem{
                     Image(systemName: "aquare.fill")
                     Text(" AppStorage")
                 }
+                .tag(1)
         }
     }
 }

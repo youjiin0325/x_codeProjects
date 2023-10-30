@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ObservableSecondView: View {
-    
+    // @EnvironmentObject 값을 공유함 인스턴스 생성 안 함
     @EnvironmentObject var timerData : TimerData
     
     var body: some View {

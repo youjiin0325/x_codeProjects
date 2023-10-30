@@ -23,19 +23,11 @@
 
 import SwiftUI
 
-
-struct ColorPicker: View {
-    @EnvironmentObject var colorData : ColorPickOne
-   
-    var body: some View {
-       
-        VStack{
-            Text("Second View")
-                .font(.largeTitle)
+@main
+struct ColorPickerDemoViewApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
         }
-       
     }
-}
-#Preview {
-    ColorPicker()
 }

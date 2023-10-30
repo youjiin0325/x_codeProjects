@@ -2,17 +2,28 @@
 
 import Foundation
 
-var greeting = "Hello, playground"
 
-func solution(_ score:[[Int]]) -> [Int] {
-    var sumScore = [Int]()
-    for score in score {
-        let sum = score.reduce(0, +)
-        sumScore.append(sum)
-       
-        print(sumScore)
-    }
-    return []
+protocol Berry {
+    var color: String { get }
+}
+class Blueberry: Berry {
+    let color = "blue"
+}
+class Strawberry: Berry {
+    let color = "red"
 }
 
-print(solution([[80, 70], [90, 50], [40, 70], [50, 80]]))
+for berry in [Blueberry(), Strawberry()] {
+    if berry is Blueberry {
+        print("blueberry")
+    }
+    if let blueberry = berry as? Blueberry {
+        print(blueberry.color)
+    }
+    if berry is Strawberry {
+        print("strawberry")
+    }
+    if let strawberry = berry as? Strawberry {
+        print(strawberry.color)
+    }
+}
