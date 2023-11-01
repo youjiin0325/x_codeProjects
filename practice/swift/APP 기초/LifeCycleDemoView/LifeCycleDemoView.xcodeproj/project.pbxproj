@@ -13,9 +13,6 @@
 		201CB0072AEF7A1500FC1EC1 /* AligmentView_EX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201CB0062AEF7A1500FC1EC1 /* AligmentView_EX.swift */; };
 		201CB0092AEF7B6D00FC1EC1 /* AligmentView_EX2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201CB0082AEF7B6D00FC1EC1 /* AligmentView_EX2.swift */; };
 		201CB00C2AEF95E400FC1EC1 /* AligmentZStaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201CB00B2AEF95E400FC1EC1 /* AligmentZStaskView.swift */; };
-		201CB00E2AEFA13600FC1EC1 /* Alignment_EX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201CB00D2AEFA13600FC1EC1 /* Alignment_EX.swift */; };
-		201CB0112AEFA34900FC1EC1 /* Alignment_EX2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201CB0102AEFA34900FC1EC1 /* Alignment_EX2.swift */; };
-		201CB0132AEFA49F00FC1EC1 /* Alignment_EX3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201CB0122AEFA49F00FC1EC1 /* Alignment_EX3.swift */; };
 		20D750492AEA01D500A9D4AE /* LifeCycleDemoViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D750482AEA01D500A9D4AE /* LifeCycleDemoViewApp.swift */; };
 		20D7504B2AEA01D500A9D4AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D7504A2AEA01D500A9D4AE /* ContentView.swift */; };
 		20D7504D2AEA01DA00A9D4AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20D7504C2AEA01DA00A9D4AE /* Assets.xcassets */; };
@@ -36,9 +33,6 @@
 		201CB0062AEF7A1500FC1EC1 /* AligmentView_EX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AligmentView_EX.swift; sourceTree = "<group>"; };
 		201CB0082AEF7B6D00FC1EC1 /* AligmentView_EX2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AligmentView_EX2.swift; sourceTree = "<group>"; };
 		201CB00B2AEF95E400FC1EC1 /* AligmentZStaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AligmentZStaskView.swift; sourceTree = "<group>"; };
-		201CB00D2AEFA13600FC1EC1 /* Alignment_EX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alignment_EX.swift; sourceTree = "<group>"; };
-		201CB0102AEFA34900FC1EC1 /* Alignment_EX2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alignment_EX2.swift; sourceTree = "<group>"; };
-		201CB0122AEFA49F00FC1EC1 /* Alignment_EX3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alignment_EX3.swift; sourceTree = "<group>"; };
 		20D750452AEA01D500A9D4AE /* LifeCycleDemoView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeCycleDemoView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D750482AEA01D500A9D4AE /* LifeCycleDemoViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleDemoViewApp.swift; sourceTree = "<group>"; };
 		20D7504A2AEA01D500A9D4AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,20 +64,9 @@
 				201CB0062AEF7A1500FC1EC1 /* AligmentView_EX.swift */,
 				201CB0082AEF7B6D00FC1EC1 /* AligmentView_EX2.swift */,
 				201CB00B2AEF95E400FC1EC1 /* AligmentZStaskView.swift */,
-				201CB00F2AEFA32000FC1EC1 /* EX_Alignment */,
 				201CAFE62AEF690700FC1EC1 /* AligmentView.swift */,
 			);
 			path = Aligment;
-			sourceTree = "<group>";
-		};
-		201CB00F2AEFA32000FC1EC1 /* EX_Alignment */ = {
-			isa = PBXGroup;
-			children = (
-				201CB00D2AEFA13600FC1EC1 /* Alignment_EX.swift */,
-				201CB0102AEFA34900FC1EC1 /* Alignment_EX2.swift */,
-				201CB0122AEFA49F00FC1EC1 /* Alignment_EX3.swift */,
-			);
-			path = EX_Alignment;
 			sourceTree = "<group>";
 		};
 		20D7503C2AEA01D500A9D4AE = {
@@ -218,7 +201,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				20D750592AEA035D00A9D4AE /* SecondTabView.swift in Sources */,
-				201CB0132AEFA49F00FC1EC1 /* Alignment_EX3.swift in Sources */,
 				201CB0072AEF7A1500FC1EC1 /* AligmentView_EX.swift in Sources */,
 				201CAFE72AEF690700FC1EC1 /* AligmentView.swift in Sources */,
 				20D7505D2AEA31D400A9D4AE /* ObservableSecondView.swift in Sources */,
@@ -226,7 +208,6 @@
 				20D750652AEA438A00A9D4AE /* AppStorageView.swift in Sources */,
 				20D7505F2AEA40E700A9D4AE /* StorageDemoView.swift in Sources */,
 				20D7504B2AEA01D500A9D4AE /* ContentView.swift in Sources */,
-				201CB00E2AEFA13600FC1EC1 /* Alignment_EX.swift in Sources */,
 				20D750572AEA034100A9D4AE /* FirstTabView.swift in Sources */,
 				201CAFE32AEF4B3B00FC1EC1 /* SceneStorageView_.swift in Sources */,
 				201CB00C2AEF95E400FC1EC1 /* AligmentZStaskView.swift in Sources */,
@@ -234,7 +215,6 @@
 				201CB0092AEF7B6D00FC1EC1 /* AligmentView_EX2.swift in Sources */,
 				20D750612AEA436600A9D4AE /* SceneStorageView.swift in Sources */,
 				201CAFE52AEF4F3F00FC1EC1 /* StorageNavigationView.swift in Sources */,
-				201CB0112AEFA34900FC1EC1 /* Alignment_EX2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,28 +2,14 @@
 
 import Foundation
 
-
-protocol Berry {
-    var color: String { get }
-}
-class Blueberry: Berry {
-    let color = "blue"
-}
-class Strawberry: Berry {
-    let color = "red"
-}
-
-for berry in [Blueberry(), Strawberry()] {
-    if berry is Blueberry {
-        print("blueberry")
+print("heelo")
+func solution(_ chicken:Int) -> Int {
+    var count = 0
+    var rest = chicken
+    while rest >= 10 {
+        count += rest / 10
+        rest = rest / 10 + rest % 10
     }
-    if let blueberry = berry as? Blueberry {
-        print(blueberry.color)
-    }
-    if berry is Strawberry {
-        print("strawberry")
-    }
-    if let strawberry = berry as? Strawberry {
-        print(strawberry.color)
-    }
+    return count
 }
+print(solution(1081))
