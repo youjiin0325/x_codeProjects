@@ -12,6 +12,12 @@
 		201CB0252AF0D32E00FC1EC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 201CB0242AF0D32E00FC1EC1 /* Assets.xcassets */; };
 		201CB0282AF0D32E00FC1EC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 201CB0272AF0D32E00FC1EC1 /* Preview Assets.xcassets */; };
 		201CB02F2AF0DA9400FC1EC1 /* ListNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201CB02E2AF0DA9400FC1EC1 /* ListNavigationView.swift */; };
+		205062D82AF32427001FC42D /* ListNavDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205062D72AF32427001FC42D /* ListNavDemo.swift */; };
+		205062DC2AF326AD001FC42D /* carData.json in Resources */ = {isa = PBXBuildFile; fileRef = 205062DB2AF326AD001FC42D /* carData.json */; };
+		205062E12AF32912001FC42D /* loadJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205062E02AF32912001FC42D /* loadJson.swift */; };
+		205062E32AF33415001FC42D /* CarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205062E22AF33415001FC42D /* CarDetailView.swift */; };
+		205062E52AF33BC4001FC42D /* AddNewCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205062E42AF33BC4001FC42D /* AddNewCarView.swift */; };
+		20A494C72AF47737007262CE /* ColorAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A494C62AF47737007262CE /* ColorAssets.xcassets */; };
 		20AB358D2AF1DC54002D50F6 /* SwiftUI List EX 01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB358C2AF1DC54002D50F6 /* SwiftUI List EX 01.swift */; };
 		20AB35912AF1E466002D50F6 /* SwiftUI_List_EX_03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB35902AF1E466002D50F6 /* SwiftUI_List_EX_03.swift */; };
 		20AB35932AF1E8E2002D50F6 /* SwiftUI_List_EX_04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB35922AF1E8E2002D50F6 /* SwiftUI_List_EX_04.swift */; };
@@ -20,6 +26,7 @@
 		20AB35A32AF241B7002D50F6 /* TestUIView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB35A22AF241B7002D50F6 /* TestUIView1.swift */; };
 		20AB35A72AF2429B002D50F6 /* TestUIView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB35A62AF2429B002D50F6 /* TestUIView3.swift */; };
 		20AB35A92AF24495002D50F6 /* TestUIView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB35A82AF24495002D50F6 /* TestUIView4.swift */; };
+		20EE28482AF4C81000F700F9 /* PhotoPickerSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EE28472AF4C81000F700F9 /* PhotoPickerSampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +36,14 @@
 		201CB0242AF0D32E00FC1EC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		201CB0272AF0D32E00FC1EC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		201CB02E2AF0DA9400FC1EC1 /* ListNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavigationView.swift; sourceTree = "<group>"; };
+		205062D72AF32427001FC42D /* ListNavDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavDemo.swift; sourceTree = "<group>"; };
+		205062DB2AF326AD001FC42D /* carData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = carData.json; path = ../../../../../../../../../Downloads/carData.json; sourceTree = "<group>"; };
+		205062DE2AF326CF001FC42D /* CarAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CarAssets.xcassets; sourceTree = "<group>"; };
+		205062DF2AF326D1001FC42D /* carData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = carData.json; sourceTree = "<group>"; };
+		205062E02AF32912001FC42D /* loadJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadJson.swift; sourceTree = "<group>"; };
+		205062E22AF33415001FC42D /* CarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailView.swift; sourceTree = "<group>"; };
+		205062E42AF33BC4001FC42D /* AddNewCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCarView.swift; sourceTree = "<group>"; };
+		20A494C62AF47737007262CE /* ColorAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAssets.xcassets; sourceTree = "<group>"; };
 		20AB358C2AF1DC54002D50F6 /* SwiftUI List EX 01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI List EX 01.swift"; sourceTree = "<group>"; };
 		20AB35902AF1E466002D50F6 /* SwiftUI_List_EX_03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_List_EX_03.swift; sourceTree = "<group>"; };
 		20AB35922AF1E8E2002D50F6 /* SwiftUI_List_EX_04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_List_EX_04.swift; sourceTree = "<group>"; };
@@ -37,6 +52,7 @@
 		20AB35A22AF241B7002D50F6 /* TestUIView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUIView1.swift; sourceTree = "<group>"; };
 		20AB35A62AF2429B002D50F6 /* TestUIView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUIView3.swift; sourceTree = "<group>"; };
 		20AB35A82AF24495002D50F6 /* TestUIView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUIView4.swift; sourceTree = "<group>"; };
+		20EE28472AF4C81000F700F9 /* PhotoPickerSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerSampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +91,7 @@
 				20AB35A12AF23BC7002D50F6 /* swiftUI Navigation EX */,
 				20AB35962AF1F08F002D50F6 /* swiftUI List EX */,
 				201CB0242AF0D32E00FC1EC1 /* Assets.xcassets */,
+				20A494C62AF47737007262CE /* ColorAssets.xcassets */,
 				201CB0262AF0D32E00FC1EC1 /* Preview Content */,
 			);
 			path = DemoProject4;
@@ -88,6 +105,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		205062DD2AF326C0001FC42D /* Car EX */ = {
+			isa = PBXGroup;
+			children = (
+				205062D72AF32427001FC42D /* ListNavDemo.swift */,
+				20EE28472AF4C81000F700F9 /* PhotoPickerSampleView.swift */,
+				205062E42AF33BC4001FC42D /* AddNewCarView.swift */,
+				205062E22AF33415001FC42D /* CarDetailView.swift */,
+				205062E02AF32912001FC42D /* loadJson.swift */,
+				205062DF2AF326D1001FC42D /* carData.json */,
+				205062DE2AF326CF001FC42D /* CarAssets.xcassets */,
+			);
+			path = "Car EX";
+			sourceTree = "<group>";
+		};
 		20AB35962AF1F08F002D50F6 /* swiftUI List EX */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +126,8 @@
 				20AB35902AF1E466002D50F6 /* SwiftUI_List_EX_03.swift */,
 				20AB35922AF1E8E2002D50F6 /* SwiftUI_List_EX_04.swift */,
 				20AB35942AF1ECE8002D50F6 /* SwiftUI_List_EX_05.swift */,
+				205062DB2AF326AD001FC42D /* carData.json */,
+				205062DD2AF326C0001FC42D /* Car EX */,
 			);
 			path = "swiftUI List EX";
 			sourceTree = "<group>";
@@ -168,7 +201,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				205062DC2AF326AD001FC42D /* carData.json in Resources */,
 				201CB0282AF0D32E00FC1EC1 /* Preview Assets.xcassets in Resources */,
+				20A494C72AF47737007262CE /* ColorAssets.xcassets in Resources */,
 				201CB0252AF0D32E00FC1EC1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,6 +217,7 @@
 			files = (
 				20AB35A72AF2429B002D50F6 /* TestUIView3.swift in Sources */,
 				20AB358D2AF1DC54002D50F6 /* SwiftUI List EX 01.swift in Sources */,
+				205062E32AF33415001FC42D /* CarDetailView.swift in Sources */,
 				20AB35952AF1ECE8002D50F6 /* SwiftUI_List_EX_05.swift in Sources */,
 				201CB02F2AF0DA9400FC1EC1 /* ListNavigationView.swift in Sources */,
 				20AB35932AF1E8E2002D50F6 /* SwiftUI_List_EX_04.swift in Sources */,
@@ -189,7 +225,11 @@
 				20AB35A92AF24495002D50F6 /* TestUIView4.swift in Sources */,
 				201CB0232AF0D32600FC1EC1 /* ContentView.swift in Sources */,
 				20AB35A32AF241B7002D50F6 /* TestUIView1.swift in Sources */,
+				205062E12AF32912001FC42D /* loadJson.swift in Sources */,
+				20EE28482AF4C81000F700F9 /* PhotoPickerSampleView.swift in Sources */,
 				201CB0212AF0D32600FC1EC1 /* DemoProject4App.swift in Sources */,
+				205062D82AF32427001FC42D /* ListNavDemo.swift in Sources */,
+				205062E52AF33BC4001FC42D /* AddNewCarView.swift in Sources */,
 				20AB359C2AF22B49002D50F6 /* TestUIView2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
